@@ -4,7 +4,7 @@ import static primeFactors.PrimeFactors.generate;
 import junit.framework.TestCase;
 
 import java.util.*;
-
+// test
 
 public class PrimeFactorsTest extends TestCase {
 	private List<Integer> list(int...ints) {
