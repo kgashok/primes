@@ -2,6 +2,21 @@ package primeFactors;
 
 import java.util.*;
 
+
+public class PrimeFactors {
+  public static List<Integer> generate(int n) {
+    List<Integer> primes = new ArrayList<Integer>();
+    
+    // the famous three line code for generating prime factors
+	for (int candidate = 2; n > 1; candidate++ )
+	  for (; n % candidate == 0; n /= candidate)
+    	primes.add(candidate);
+	
+    return primes;
+  }
+}
+
+/*
 public class PrimeFactors {
   public static List<Integer> generate(int n) {
     List<Integer> primes = new ArrayList<Integer>();
@@ -15,3 +30,4 @@ public class PrimeFactors {
     return primes;
   }
 }
+*/

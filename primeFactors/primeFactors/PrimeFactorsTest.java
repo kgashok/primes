@@ -5,7 +5,6 @@ import junit.framework.TestCase;
 
 import java.util.*;
 
-
 public class PrimeFactorsTest extends TestCase {
 	private List<Integer> list(int...ints) {
 		List<Integer> list = new ArrayList<Integer>();
